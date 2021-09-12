@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.varenyam{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 25px
+}
+a{
+    text-decoration: none;
+    color: #655; 
+}
+p{
+    color: #655;
+}
+.varenyamcontainer{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.varenyamrow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.varenyamcol2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.varenyamcol2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.varenyamcol2{
+    max-width: 100%;
+    padding: 25px 0;
+}
+.varenyamcol2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0
+}
+.footer h4{
+    font-size: 20px;
+    line-height: 100px;
+    margin: 50px 0
+}
+.button{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5;
+}
+.button:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6)
+}
+.varenyamlist{
+    margin: 70px 0;
+}
+.line{
+    flex-basis: 20%;
+    min-width: 250px;
+    margin-bottom: 80px;
+}
+.line img{
+    width: 110%;
+    float: left;
+    width:  250px;
+    height: 250px;
+    object-fit: cover;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+figcaption {
+  align-self: flex-end;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.5;
+  color: #777;
+  padding-right: 35px;
+  /*adjust this to control how far it should be from egde*/
+}
+
+.varenyamcontainer1{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.title{
+    align-items: center;
+    margin: 0 800px;
+    color: red;
+    text-decoration: underline;
+}
+.marquee {
+  overflow: hidden;
+  -webkit-animation: marquee 50s linear infinite;
+  animation: marquee 50s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+  from {
+    left: 0
+  }
+  to {
+    left: 100%
+  }
+}
+
+@keyframes marquee {
+  from {
+    left: 0
+  }
+  to {
+    left: 100%
+  }
+}
